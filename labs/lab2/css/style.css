@@ -1,0 +1,74 @@
+
+header {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #fffffff1;
+    border: 1px solid #dac889f6;
+    border-radius: 25px;
+    padding: 1em;
+    width: fit-content;
+}
+
+html, body {
+    height: 100%;
+    margin: auto;
+}
+
+
+body {
+    background-image: url("../img/slot-machine.webp");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+}
+
+#totals {
+    display: flex;
+    justify-content: space-between;
+    background-color: #dac889f6;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 0px .5em 0px .5em;
+    margin: auto;
+}
+
+#totalWins, #totalLosses {
+    padding: 0em .5em 0em .5em;
+}
+
+#main {
+    padding: .5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fffffff1;
+    border: 1px solid #dac889f6;
+    border-radius: 25px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    width: 50%;
+    margin: auto;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+#playerGuess {
+    font-size: 1em;
+    width: 50%;
+    margin: auto;
+    margin-bottom: .2em;
+    margin-top: .2em;
+    border-radius: 30px;
+    border: 1px solid black;
+    text-align: center;
+} 
