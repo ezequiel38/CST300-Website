@@ -1,0 +1,92 @@
+header h1 {
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-size: 3em;
+    margin: 0px;
+    color: white;
+}
+
+hr {
+    margin: 0px;
+}
+
+body {
+    background-color: #000000;
+    margin: 0px;
+}
+
+#home {
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px #000000;
+}
+
+nav a {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #353535;
+    border: 2px solid black;
+    padding: 0.5em;
+    margin: 0em 1em 0em 1em;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #636363;
+    box-shadow: 3px 3px 3px #000000;
+}
+
+nav a:active {
+    color: white;
+    background-color: #7a7878;
+    box-shadow: 3px 3px 3px #000000;
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    background-color: #a49062;
+    padding: 1%;
+}
+
+main {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 3em;
+    background-color: #00366a;
+    color: white;
+}
+
+.portraits {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+figure {
+    text-align: center;
+    margin: 0px;
+    width: 20%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    text-align: center;
+}
+
+.info {
+    margin-top: 0px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+}
+
+#csumbLogo {
+    width: 5em;
+    height: 2.2em;
+    object-fit:cover;
+    margin-top: 1em;
+}
